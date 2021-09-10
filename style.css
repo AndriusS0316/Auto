@@ -19,6 +19,28 @@ button {
     cursor: pointer;
     box-shadow: 0 8px 10px #0002;
 }
+.titulinis {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.pastaba {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
 .start {
     cursor: pointer;
     display: flex;
