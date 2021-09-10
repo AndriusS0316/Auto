@@ -109,40 +109,64 @@ function startClick() {
 }
 
 
+var img = document.querySelector(".img");
 
-if (question === 1 && q1 === 1 || question === 2 && q1 === 1 || question === 3 && q1 === 1 || 
-    question === 4 && q1 === 1 || question === 5 && q1 === 1 || question === 6 && q1 === 1 || 
-    question === 7 && q1 === 1 || question === 8 && q1 === 1 || question === 9 && q1 === 1 || 
-    question === 10 && q1 === 1 || question === 11 && q1 === 1) {
-        
+var ats1 = document.querySelector(".vienas");
+var ats2 = document.querySelector(".du");
+var ats3 = document.querySelector(".trys");
+var ats4 = document.querySelector(".keturi");
+
+
+
+if (question === 1 && q1 === 1 || question === 2 && q2 === 1 || question === 3 && q3 === 1 || 
+    question === 4 && q4 === 1 || question === 5 && q5 === 1 || question === 6 && q6 === 1 || 
+    question === 7 && q7 === 1 || question === 8 && q8 === 1 || question === 9 && q9 === 1 || 
+    question === 10 && q10 === 1 || question === 11 && bonusQ === 1) {
+        img = document.querySelector(".img");
+          img.src = "./pictures/alfa-romeo.jpg"; 
+          img.height = 290; 
+        ats1.innerText = "alfa romeo";
+        ats2.innerText = "datsun";
+        ats3.innerText = "infiniti";
+        ats4.innerText = "peugeot";
 }
 
 
 
 function vienasClick() {
     console.log(1);
-    console.log(pirmas);
-
-    console.log(q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, bonusQ);
-
-    if (question !== 11) {
-
+    if (q1 === 1 || q2 === 1 || q3 === 1 || q4 === 1 || q5 === 1 || q6 === 1 || q7 === 1 || q8 === 1 || 
+        q9 === 1 || q10 === 1 || bonusQ === 1) {
+        teisingiAtsakymai = teisingiAtsakymai + 1;
+        question = question + 1;
     }
 }
 
 function duClick() {
     console.log(2);
-    console.log(pirmas);
+    if (q1 === 1 || q2 === 1 || q3 === 1 || q4 === 1 || q5 === 1 || q6 === 1 || q7 === 1 || q8 === 1 || 
+        q9 === 1 || q10 === 1 || bonusQ === 1) {
+        neteisingiAtsakymai = neteisingiAtsakymai + 1;
+        question = question + 1;
+    }
 }
 
 function trysClick() {
     console.log(3);
-    console.log(pirmas);
+    if (q1 === 1 || q2 === 1 || q3 === 1 || q4 === 1 || q5 === 1 || q6 === 1 || q7 === 1 || q8 === 1 || 
+        q9 === 1 || q10 === 1 || bonusQ === 1) {
+        neteisingiAtsakymai = neteisingiAtsakymai + 1;
+        question = question + 1;
+    }
 }
 
 function keturiClick() {
     console.log(4);
-    console.log(pirmas);
+    if (q1 === 1 || q2 === 1 || q3 === 1 || q4 === 1 || q5 === 1 || q6 === 1 || q7 === 1 || q8 === 1 || 
+        q9 === 1 || q10 === 1 || bonusQ === 1) {
+        neteisingiAtsakymai = neteisingiAtsakymai + 1;
+        question = question + 1;
+    }
 }
 
 
