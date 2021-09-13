@@ -10,6 +10,8 @@ let pirmas = (Math.floor(Math.random() * 53) + 1);
 
 let question = 1;
 
+let questionX;
+
 let teisingiAtsakymai = 0;
 let neteisingiAtsakymai = 0;
 
@@ -95,6 +97,44 @@ const trys = document.querySelector('.trys');
 const keturi = document.querySelector('.keturi');
 
 
+
+
+
+if (question === 1) {
+    questionX = q1;
+} else if (question === 2) {
+    questionX = q2;
+} else if (question === 3) {
+    questionX = q3;
+} else if (question === 4) {
+    questionX = q4;
+} else if (question === 5) {
+    questionX = q5;
+} else if (question === 6) {
+    questionX = q6;
+} else if (question === 7) {
+    questionX = q7;
+} else if (question === 8) {
+    questionX = q8;
+} else if (question === 9) {
+    questionX = q9;
+} else if (question === 10) {
+    questionX = q10;
+} else if (question === 11) {
+    questionX = bonusQ;
+}
+
+
+
+var img = document.querySelector(".img");
+
+var ats1 = document.querySelector(".vienas");
+var ats2 = document.querySelector(".du");
+var ats3 = document.querySelector(".trys");
+var ats4 = document.querySelector(".keturi");
+
+
+
 function startClick() {
     { document.querySelector(".img").style.display = "block"; }
     { document.querySelector(".vienas").style.display = "block"; }
@@ -107,46 +147,103 @@ function startClick() {
     { document.querySelector(".start").style.display = "none"; }
     { document.querySelector(".pastaba").style.display = "none"; }
 
+    questionX = q1;
 
+    if (questionX = 1) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/alfa-romeo.jpg";
+        img.height = 290;
+        ats1.innerText = "alfa romeo"; // teisingas
+        ats2.innerText = "datsun";
+        ats3.innerText = "infiniti";
+        ats4.innerText = "peugeot";
+    } else if (questionX = 2) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/audi.png";
+        img.height = 290;
+        ats1.innerText = "lamborghini";
+        ats2.innerText = "volvo";
+        ats3.innerText = "audi"; // teisingas
+        ats4.innerText = "mitsubishi";
+    } else if (questionX = 3) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/bentley.png";
+        img.height = 290;
+        ats1.innerText = "bentley"; // teisingas
+        ats2.innerText = "bugatti";
+        ats3.innerText = "dodge"; 
+        ats4.innerText = "rover";
+    } else if (questionX = 4) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/bmw.png";
+        img.height = 290;
+        ats1.innerText = "fiat"; 
+        ats2.innerText = "buick";
+        ats3.innerText = "audi"; 
+        ats4.innerText = "bmw"; // teisingas
+    } else if (questionX = 5) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/bugatti.jpg";
+        img.height = 290;
+        ats1.innerText = "buick"; 
+        ats2.innerText = "bugatti"; // teisingas
+        ats3.innerText = "chevrolet"; 
+        ats4.innerText = "lotus"; 
+    } else if (questionX = 6) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/buick.jpg";
+        img.height = 290;
+        ats1.innerText = "cadillac"; 
+        ats2.innerText = "buick"; // teisingas
+        ats3.innerText = "pontiac"; 
+        ats4.innerText = "mitsubishi"; 
+    } else if (questionX = 7) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/cadillac.jpg";
+        img.height = 290;
+        ats1.innerText = "bentley"; 
+        ats2.innerText = "datsun"; 
+        ats3.innerText = "cadillac"; // teisingas
+        ats4.innerText = "plymouth"; 
+    }
 }
 
 
-var img = document.querySelector(".img");
-
-var ats1 = document.querySelector(".vienas");
-var ats2 = document.querySelector(".du");
-var ats3 = document.querySelector(".trys");
-var ats4 = document.querySelector(".keturi");
 
 
 
-if (question === 1 && q1 === 1 || question === 2 && q2 === 1 || question === 3 && q3 === 1 ||
-    question === 4 && q4 === 1 || question === 5 && q5 === 1 || question === 6 && q6 === 1 ||
-    question === 7 && q7 === 1 || question === 8 && q8 === 1 || question === 9 && q9 === 1 ||
-    question === 10 && q10 === 1 || question === 11 && bonusQ === 1) {
-    picture = 1;
-    img = document.querySelector(".img");
-    img.src = "./pictures/alfa-romeo.jpg";
-    img.height = 290;
-    ats1.innerText = "alfa romeo";
-    ats2.innerText = "datsun";
-    ats3.innerText = "infiniti";
-    ats4.innerText = "peugeot";
-}
+// if (question === 1 && q1 === 1 || question === 2 && q2 === 1 || question === 3 && q3 === 1 ||
+//     question === 4 && q4 === 1 || question === 5 && q5 === 1 || question === 6 && q6 === 1 ||
+//     question === 7 && q7 === 1 || question === 8 && q8 === 1 || question === 9 && q9 === 1 ||
+//     question === 10 && q10 === 1 || question === 11 && bonusQ === 1) {
+//     picture = 1;
+//     img = document.querySelector(".img");
+//     img.src = "./pictures/alfa-romeo.jpg";
+//     img.height = 290;
+//     ats1.innerText = "alfa romeo";
+//     ats2.innerText = "datsun";
+//     ats3.innerText = "infiniti";
+//     ats4.innerText = "peugeot";
+// }
 
-if (question === 1 && q1 === 2 || question === 2 && q2 === 2 || question === 3 && q3 === 2 ||
-    question === 4 && q4 === 2 || question === 5 && q5 === 2 || question === 6 && q6 === 2 ||
-    question === 7 && q7 === 2 || question === 8 && q8 === 2 || question === 9 && q9 === 2 ||
-    question === 10 && q10 === 2 || question === 11 && bonusQ === 2) {
-    picture = 2;
-    img = document.querySelector(".img");
-    img.src = "./pictures/audi.png";
-    img.height = 290;
-    ats1.innerText = "lamborghini";
-    ats2.innerText = "volvo";
-    ats3.innerText = "audi";
-    ats4.innerText = "mitsubishi";
-}
+// if (question === 1 && q1 === 2 || question === 2 && q2 === 2 || question === 3 && q3 === 2 ||
+//     question === 4 && q4 === 2 || question === 5 && q5 === 2 || question === 6 && q6 === 2 ||
+//     question === 7 && q7 === 2 || question === 8 && q8 === 2 || question === 9 && q9 === 2 ||
+//     question === 10 && q10 === 2 || question === 11 && bonusQ === 2) {
+//     picture = 2;
+//     img = document.querySelector(".img");
+//     img.src = "./pictures/audi.png";
+//     img.height = 290;
+//     ats1.innerText = "lamborghini";
+//     ats2.innerText = "volvo";
+//     ats3.innerText = "audi";
+//     ats4.innerText = "mitsubishi";
+// }
+
+
+
+
+
 
 
 
