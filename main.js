@@ -6,7 +6,7 @@ let random = 0;
 
 let picture = 0;
 
-let pirmas = (Math.floor(Math.random() * 53) + 1);
+const pirmas = (Math.floor(Math.random() * 53) + 1);
 
 let question = 1;
 
@@ -568,10 +568,10 @@ function startClick() {
         img = document.querySelector(".img");
         img.src = "./pictures/volkswagen.png";
         img.height = 290;
-        ats1.innerText = "citroen"; 
-        ats2.innerText = "subaru"; 
-        ats3.innerText = "volkswagen"; // teisingas
-        ats4.innerText = "infiniti"; 
+        ats1.innerText = "citroen"; //answers[52][0]
+        ats2.innerText = "subaru"; //answers[52][1]
+        ats3.innerText = "volkswagen"; // teisingas //answers[52][2]
+        ats4.innerText = "infiniti"; //answers[52][3]
     } else if (questionX === 53) {
         img = document.querySelector(".img");
         img.src = "./pictures/volvo.png";
@@ -678,3 +678,11 @@ du.addEventListener('click', duClick);
 trys.addEventListener('click', trysClick);
 keturi.addEventListener('click', keturiClick);
 
+
+
+
+// const cars = ['volvo', 'ferrari'];
+// const answers = [
+//     [cars[0], cars[43], cars[24], cars[13]], 
+//     [cars[1], cars[12], cars[26], cars[48]]
+// ];
