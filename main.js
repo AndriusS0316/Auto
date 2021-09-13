@@ -548,7 +548,39 @@ function startClick() {
         ats2.innerText = "cadillac"; 
         ats3.innerText = "datsun"; 
         ats4.innerText = "toyota"; // teisingas
-    } else 
+    } else if (questionX === 50) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/vauxhall.jpg";
+        img.height = 290;
+        ats1.innerText = "vauxhall"; // teisingas
+        ats2.innerText = "volga"; 
+        ats3.innerText = "volkswagen"; 
+        ats4.innerText = "volvo"; 
+    } else if (questionX === 51) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/volga.png";
+        img.height = 290;
+        ats1.innerText = "lada"; 
+        ats2.innerText = "volga"; // teisingas
+        ats3.innerText = "plymouth"; 
+        ats4.innerText = "mitsubishi"; 
+    } else if (questionX === 52) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/volkswagen.png";
+        img.height = 290;
+        ats1.innerText = "citroen"; 
+        ats2.innerText = "subaru"; 
+        ats3.innerText = "volkswagen"; // teisingas
+        ats4.innerText = "infiniti"; 
+    } else if (questionX === 53) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/volvo.png";
+        img.height = 290;
+        ats1.innerText = "rolls royce"; 
+        ats2.innerText = "renault"; 
+        ats3.innerText = "volkswagen"; 
+        ats4.innerText = "volvo"; // teisingas
+    }
 }
 
 
