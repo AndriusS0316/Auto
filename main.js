@@ -492,6 +492,62 @@ function startClick() {
         ats2.innerText = "suzuki"; 
         ats3.innerText = "skoda"; 
         ats4.innerText = "nissan"; 
+    } else if (questionX === 43) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/seat.jpg";
+        img.height = 290;
+        ats1.innerText = "seat"; // teisingas
+        ats2.innerText = "suzuki"; 
+        ats3.innerText = "subaru"; 
+        ats4.innerText = "ssangyong"; 
+    } else if (questionX === 44) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/skoda.png";
+        img.height = 290;
+        ats1.innerText = "infiniti"; 
+        ats2.innerText = "citroen"; 
+        ats3.innerText = "honda"; 
+        ats4.innerText = "skoda"; // teisingas
+    } else if (questionX === 45) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/ssangyong.png";
+        img.height = 290;
+        ats1.innerText = "lancia"; 
+        ats2.innerText = "ssangyong"; // teisingas
+        ats3.innerText = "bentley"; 
+        ats4.innerText = "audi"; 
+    } else if (questionX === 46) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/subaru.png";
+        img.height = 290;
+        ats1.innerText = "opel"; 
+        ats2.innerText = "saab"; 
+        ats3.innerText = "subaru"; // teisingas
+        ats4.innerText = "volkswagen"; 
+    } else if (questionX === 47) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/suzuki.jpg";
+        img.height = 290;
+        ats1.innerText = "subaru"; 
+        ats2.innerText = "suzuki"; // teisingas
+        ats3.innerText = "skoda"; 
+        ats4.innerText = "nissan"; 
+    } else if (questionX === 48) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/tesla.png";
+        img.height = 290;
+        ats1.innerText = "toyota"; 
+        ats2.innerText = "porsche"; 
+        ats3.innerText = "tesla"; // teisingas
+        ats4.innerText = "vauxhall"; 
+    } else if (questionX === 49) {
+        img = document.querySelector(".img");
+        img.src = "./pictures/toyota.jpg";
+        img.height = 290;
+        ats1.innerText = "tesla"; 
+        ats2.innerText = "cadillac"; 
+        ats3.innerText = "datsun"; 
+        ats4.innerText = "toyota"; // teisingas
     } else 
 }
 
