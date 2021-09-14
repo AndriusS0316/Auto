@@ -56,3 +56,63 @@ button {
     background-color: yellowgreen;
     color: black;
 }
+.ivertinimas {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.back {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 45px;
+}
+.back:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+.bonus {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 41px;
+}
+.bonus:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+.vertinimas {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 41px;
+}
+.ivertinimoZinute {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+}
