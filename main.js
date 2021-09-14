@@ -623,9 +623,9 @@ function startClick() {
 
 
 function vienasClick() {
-    console.log("vienas");
-    console.log("teisingiAtsakymai", teisingiAtsakymai);
-    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+    // console.log("vienas");
+    // console.log("teisingiAtsakymai", teisingiAtsakymai);
+    // console.log("neteisingiAtsakymai", neteisingiAtsakymai);
     
     if (question === 11) {
 
@@ -1242,7 +1242,9 @@ function vienasClick() {
         ats4.innerText = "volvo"; // teisingas
     }
 
-
+    console.log("vienas");
+    console.log("teisingiAtsakymai", teisingiAtsakymai);
+    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     // if (picture === 1) {
     //     teisingiAtsakymai = teisingiAtsakymai + 1;
@@ -1255,9 +1257,9 @@ function vienasClick() {
 }
 
 function duClick() {
-    console.log("du");
-    console.log("teisingiAtsakymai", teisingiAtsakymai);
-    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+    // console.log("du");
+    // console.log("teisingiAtsakymai", teisingiAtsakymai);
+    // console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     if (question === 11) {
 
@@ -1874,7 +1876,9 @@ function duClick() {
         ats4.innerText = "volvo"; // teisingas
     }
 
-
+    console.log("du");
+    console.log("teisingiAtsakymai", teisingiAtsakymai);
+    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     // if (picture === 1) {
     //     neteisingiAtsakymai = neteisingiAtsakymai + 1;
@@ -1887,9 +1891,9 @@ function duClick() {
 }
 
 function trysClick() {
-    console.log("trys");
-    console.log("teisingiAtsakymai", teisingiAtsakymai);
-    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+    // console.log("trys");
+    // console.log("teisingiAtsakymai", teisingiAtsakymai);
+    // console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     if (question === 11) {
 
@@ -2506,7 +2510,9 @@ function trysClick() {
         ats4.innerText = "volvo"; // teisingas
     }
 
-
+    console.log("trys");
+    console.log("teisingiAtsakymai", teisingiAtsakymai);
+    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     // if (picture === 1) {
     //     neteisingiAtsakymai = neteisingiAtsakymai + 1;
@@ -2519,9 +2525,9 @@ function trysClick() {
 }
 
 function keturiClick() {
-    console.log("keturi");
-    console.log("teisingiAtsakymai", teisingiAtsakymai);
-    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+    // console.log("keturi");
+    // console.log("teisingiAtsakymai", teisingiAtsakymai);
+    // console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     if (question === 11) {
 
@@ -3138,7 +3144,9 @@ function keturiClick() {
         ats4.innerText = "volvo"; // teisingas
     }
 
-
+    console.log("keturi");
+    console.log("teisingiAtsakymai", teisingiAtsakymai);
+    console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
     // if (picture === 1) {
     //     neteisingiAtsakymai = neteisingiAtsakymai + 1;
