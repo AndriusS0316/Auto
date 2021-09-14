@@ -153,7 +153,7 @@ let ats2 = document.querySelector(".du");
 let ats3 = document.querySelector(".trys");
 let ats4 = document.querySelector(".keturi");
 
-let atsIMG = document.querySelector(".img");
+let atsIMG = document.querySelector(".ivertinimas");
 
 
 
@@ -847,7 +847,29 @@ function vienasClick() {
         { document.querySelector(".ivertinimoZinute").style.display = "block"; }
 
         if (teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
-
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 5 || teisingiAtsakymai === 6) {
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/2fd.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 7 || teisingiAtsakymai === 8) {
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/3d.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 9) {
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/4c.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 10) {
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/5a.png";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 11) {
+            atsIMG = document.querySelector(".ivertinimas");
+            atsIMG.src = "./vertinimas/6a+.jpg";
+            atsIMG.height = 290;
         }
     }
 
