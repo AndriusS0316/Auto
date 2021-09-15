@@ -1323,6 +1323,170 @@ function vienasClick() {
         //     question = question + 1;
         // }
     }
+
+    if (taipBonus) {
+        if (questionX === 1) {
+            
+        } else if (questionX === 2) {
+            
+        } else if (questionX === 3) {
+            
+        } else if (questionX === 4) {
+            
+        } else if (questionX === 5) {
+            
+        } else if (questionX === 6) {
+            
+        } else if (questionX === 7) {
+            
+        } else if (questionX === 8) {
+            
+        } else if (questionX === 9) {
+            
+        } else if (questionX === 10) {
+            
+        } else if (questionX === 11) {
+            
+        } else if (questionX === 12) {
+            
+        } else if (questionX === 13) {
+            
+        } else if (questionX === 14) {
+            
+        } else if (questionX === 15) {
+            
+        } else if (questionX === 16) {
+            
+        } else if (questionX === 17) {
+            
+        } else if (questionX === 18) {
+            
+        } else if (questionX === 19) {
+            
+        } else if (questionX === 20) {
+            
+        } else if (questionX === 21) {
+            
+        } else if (questionX === 22) {
+            
+        } else if (questionX === 23) {
+            
+        } else if (questionX === 24) {
+            
+        } else if (questionX === 25) {
+            
+        } else if (questionX === 26) {
+            
+        } else if (questionX === 27) {
+            
+        } else if (questionX === 28) {
+            
+        } else if (questionX === 29) {
+            
+        } else if (questionX === 30) {
+            
+        } else if (questionX === 31) {
+            
+        } else if (questionX === 32) {
+            
+        } else if (questionX === 33) {
+            
+        } else if (questionX === 34) {
+            
+        } else if (questionX === 35) {
+            
+        } else if (questionX === 36) {
+            
+        } else if (questionX === 37) {
+            
+        } else if (questionX === 38) {
+            
+        } else if (questionX === 39) {
+            
+        } else if (questionX === 40) {
+            
+        } else if (questionX === 41) {
+            
+        } else if (questionX === 42) {
+            
+        } else if (questionX === 43) {
+            
+        } else if (questionX === 44) {
+            
+        } else if (questionX === 45) {
+            
+        } else if (questionX === 46) {
+            
+        } else if (questionX === 47) {
+            
+        } else if (questionX === 48) {
+            
+        } else if (questionX === 49) {
+            
+        } else if (questionX === 50) {
+            
+        } else if (questionX === 51) {
+            
+        } else if (questionX === 52) {
+            
+        } else if (questionX === 53) {
+            
+        }
+
+        { document.querySelector(".img").style.display = "none"; }
+        { document.querySelector(".vienas").style.display = "none"; }
+        { document.querySelector(".du").style.display = "none"; }
+        { document.querySelector(".trys").style.display = "none"; }
+        { document.querySelector(".keturi").style.display = "none"; }
+
+        { document.querySelector(".ivertinimas").style.display = "block"; }
+
+        { document.querySelector(".back").style.display = "block"; }
+        { document.querySelector(".bonus").style.display = "none"; }
+
+        { document.querySelector(".vertinimas").style.display = "block"; }
+        { document.querySelector(".ivertinimoZinute").style.display = "none"; }
+
+
+        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 5 || teisingiAtsakymai === 6) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/2fd.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 7 || teisingiAtsakymai === 8) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/3d.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 9) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/4c.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 10) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/5a.png";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 11) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/6a+.jpg";
+            atsIMG.height = 290;
+        }
+    
+
+        console.log("vienas");
+        console.log("teisingiAtsakymai", teisingiAtsakymai);
+        console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+
+
+    }
 }
 
 function duClick() {
@@ -2006,6 +2170,170 @@ function duClick() {
         //     question = question + 1;
         // }
     }
+
+    if (taipBonus) {
+        if (questionX === 1) {
+            
+        } else if (questionX === 2) {
+            
+        } else if (questionX === 3) {
+            
+        } else if (questionX === 4) {
+            
+        } else if (questionX === 5) {
+            
+        } else if (questionX === 6) {
+            
+        } else if (questionX === 7) {
+            
+        } else if (questionX === 8) {
+            
+        } else if (questionX === 9) {
+            
+        } else if (questionX === 10) {
+            
+        } else if (questionX === 11) {
+            
+        } else if (questionX === 12) {
+            
+        } else if (questionX === 13) {
+            
+        } else if (questionX === 14) {
+            
+        } else if (questionX === 15) {
+            
+        } else if (questionX === 16) {
+            
+        } else if (questionX === 17) {
+            
+        } else if (questionX === 18) {
+            
+        } else if (questionX === 19) {
+            
+        } else if (questionX === 20) {
+            
+        } else if (questionX === 21) {
+            
+        } else if (questionX === 22) {
+            
+        } else if (questionX === 23) {
+            
+        } else if (questionX === 24) {
+            
+        } else if (questionX === 25) {
+            
+        } else if (questionX === 26) {
+            
+        } else if (questionX === 27) {
+            
+        } else if (questionX === 28) {
+            
+        } else if (questionX === 29) {
+            
+        } else if (questionX === 30) {
+            
+        } else if (questionX === 31) {
+            
+        } else if (questionX === 32) {
+            
+        } else if (questionX === 33) {
+            
+        } else if (questionX === 34) {
+            
+        } else if (questionX === 35) {
+            
+        } else if (questionX === 36) {
+            
+        } else if (questionX === 37) {
+            
+        } else if (questionX === 38) {
+            
+        } else if (questionX === 39) {
+            
+        } else if (questionX === 40) {
+            
+        } else if (questionX === 41) {
+            
+        } else if (questionX === 42) {
+            
+        } else if (questionX === 43) {
+            
+        } else if (questionX === 44) {
+            
+        } else if (questionX === 45) {
+            
+        } else if (questionX === 46) {
+            
+        } else if (questionX === 47) {
+            
+        } else if (questionX === 48) {
+            
+        } else if (questionX === 49) {
+            
+        } else if (questionX === 50) {
+            
+        } else if (questionX === 51) {
+            
+        } else if (questionX === 52) {
+            
+        } else if (questionX === 53) {
+            
+        }
+
+        { document.querySelector(".img").style.display = "none"; }
+        { document.querySelector(".vienas").style.display = "none"; }
+        { document.querySelector(".du").style.display = "none"; }
+        { document.querySelector(".trys").style.display = "none"; }
+        { document.querySelector(".keturi").style.display = "none"; }
+
+        { document.querySelector(".ivertinimas").style.display = "block"; }
+
+        { document.querySelector(".back").style.display = "block"; }
+        { document.querySelector(".bonus").style.display = "none"; }
+
+        { document.querySelector(".vertinimas").style.display = "block"; }
+        { document.querySelector(".ivertinimoZinute").style.display = "none"; }
+
+
+        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 5 || teisingiAtsakymai === 6) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/2fd.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 7 || teisingiAtsakymai === 8) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/3d.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 9) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/4c.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 10) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/5a.png";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 11) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/6a+.jpg";
+            atsIMG.height = 290;
+        }
+    
+
+        console.log("du");
+        console.log("teisingiAtsakymai", teisingiAtsakymai);
+        console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+
+
+    }
 }
 
 function trysClick() {
@@ -2688,6 +3016,170 @@ function trysClick() {
         //     teisingiAtsakymai = teisingiAtsakymai + 1;
         //     question = question + 1;
         // }
+    }
+
+    if (taipBonus) {
+        if (questionX === 1) {
+            
+        } else if (questionX === 2) {
+            
+        } else if (questionX === 3) {
+            
+        } else if (questionX === 4) {
+            
+        } else if (questionX === 5) {
+            
+        } else if (questionX === 6) {
+            
+        } else if (questionX === 7) {
+            
+        } else if (questionX === 8) {
+            
+        } else if (questionX === 9) {
+            
+        } else if (questionX === 10) {
+            
+        } else if (questionX === 11) {
+            
+        } else if (questionX === 12) {
+            
+        } else if (questionX === 13) {
+            
+        } else if (questionX === 14) {
+            
+        } else if (questionX === 15) {
+            
+        } else if (questionX === 16) {
+            
+        } else if (questionX === 17) {
+            
+        } else if (questionX === 18) {
+            
+        } else if (questionX === 19) {
+            
+        } else if (questionX === 20) {
+            
+        } else if (questionX === 21) {
+            
+        } else if (questionX === 22) {
+            
+        } else if (questionX === 23) {
+            
+        } else if (questionX === 24) {
+            
+        } else if (questionX === 25) {
+            
+        } else if (questionX === 26) {
+            
+        } else if (questionX === 27) {
+            
+        } else if (questionX === 28) {
+            
+        } else if (questionX === 29) {
+            
+        } else if (questionX === 30) {
+            
+        } else if (questionX === 31) {
+            
+        } else if (questionX === 32) {
+            
+        } else if (questionX === 33) {
+            
+        } else if (questionX === 34) {
+            
+        } else if (questionX === 35) {
+            
+        } else if (questionX === 36) {
+            
+        } else if (questionX === 37) {
+            
+        } else if (questionX === 38) {
+            
+        } else if (questionX === 39) {
+            
+        } else if (questionX === 40) {
+            
+        } else if (questionX === 41) {
+            
+        } else if (questionX === 42) {
+            
+        } else if (questionX === 43) {
+            
+        } else if (questionX === 44) {
+            
+        } else if (questionX === 45) {
+            
+        } else if (questionX === 46) {
+            
+        } else if (questionX === 47) {
+            
+        } else if (questionX === 48) {
+            
+        } else if (questionX === 49) {
+            
+        } else if (questionX === 50) {
+            
+        } else if (questionX === 51) {
+            
+        } else if (questionX === 52) {
+            
+        } else if (questionX === 53) {
+            
+        }
+
+        { document.querySelector(".img").style.display = "none"; }
+        { document.querySelector(".vienas").style.display = "none"; }
+        { document.querySelector(".du").style.display = "none"; }
+        { document.querySelector(".trys").style.display = "none"; }
+        { document.querySelector(".keturi").style.display = "none"; }
+
+        { document.querySelector(".ivertinimas").style.display = "block"; }
+
+        { document.querySelector(".back").style.display = "block"; }
+        { document.querySelector(".bonus").style.display = "none"; }
+
+        { document.querySelector(".vertinimas").style.display = "block"; }
+        { document.querySelector(".ivertinimoZinute").style.display = "none"; }
+
+
+        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 5 || teisingiAtsakymai === 6) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/2fd.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 7 || teisingiAtsakymai === 8) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/3d.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 9) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/4c.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 10) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/5a.png";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 11) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/6a+.jpg";
+            atsIMG.height = 290;
+        }
+    
+
+        console.log("trys");
+        console.log("teisingiAtsakymai", teisingiAtsakymai);
+        console.log("neteisingiAtsakymai", neteisingiAtsakymai);
+
+
     }
 }
 
@@ -3382,7 +3874,7 @@ function keturiClick() {
         } else if (questionX === 3) {
             
         } else if (questionX === 4) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 5) {
             
         } else if (questionX === 6) {
@@ -3390,15 +3882,15 @@ function keturiClick() {
         } else if (questionX === 7) {
             
         } else if (questionX === 8) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 9) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 10) {
             
         } else if (questionX === 11) {
             
         } else if (questionX === 12) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 13) {
             
         } else if (questionX === 14) {
@@ -3410,7 +3902,7 @@ function keturiClick() {
         } else if (questionX === 17) {
             
         } else if (questionX === 18) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 19) {
             
         } else if (questionX === 20) {
@@ -3418,11 +3910,11 @@ function keturiClick() {
         } else if (questionX === 21) {
             
         } else if (questionX === 22) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 23) {
             
         } else if (questionX === 24) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 25) {
             
         } else if (questionX === 26) {
@@ -3432,13 +3924,13 @@ function keturiClick() {
         } else if (questionX === 28) {
             
         } else if (questionX === 29) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 30) {
             
         } else if (questionX === 31) {
             
         } else if (questionX === 32) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 33) {
             
         } else if (questionX === 34) {
@@ -3448,7 +3940,7 @@ function keturiClick() {
         } else if (questionX === 36) {
             
         } else if (questionX === 37) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 38) {
             
         } else if (questionX === 39) {
@@ -3456,13 +3948,13 @@ function keturiClick() {
         } else if (questionX === 40) {
             
         } else if (questionX === 41) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 42) {
             
         } else if (questionX === 43) {
             
         } else if (questionX === 44) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 45) {
             
         } else if (questionX === 46) {
@@ -3472,7 +3964,7 @@ function keturiClick() {
         } else if (questionX === 48) {
             
         } else if (questionX === 49) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 50) {
             
         } else if (questionX === 51) {
@@ -3480,7 +3972,7 @@ function keturiClick() {
         } else if (questionX === 52) {
             
         } else if (questionX === 53) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         }
 
         { document.querySelector(".img").style.display = "none"; }
