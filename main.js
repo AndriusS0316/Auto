@@ -1488,7 +1488,12 @@ function vienasClick() {
         { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
 
-        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+        if (teisingiAtsakymai < 0) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + "0" + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
             atsIMG = document.querySelector(".ivertinimas");
             vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
             atsIMG.src = "./vertinimas/1f.jpg";
@@ -2376,7 +2381,12 @@ function duClick() {
         { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
 
-        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+        if (teisingiAtsakymai < 0) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + "0" + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
             atsIMG = document.querySelector(".ivertinimas");
             vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
             atsIMG.src = "./vertinimas/1f.jpg";
