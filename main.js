@@ -1326,111 +1326,151 @@ function vienasClick() {
 
     if (taipBonus) {
         if (questionX === 1) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 2) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 3) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 4) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 5) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 6) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 7) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 8) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 9) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 10) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 11) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 12) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 13) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 14) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 15) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 16) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 17) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 18) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 19) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 20) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 21) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 22) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 23) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 24) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 25) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 26) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 27) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 28) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 29) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 30) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 31) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 32) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 33) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 34) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 35) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 36) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 37) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 38) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 39) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 40) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 41) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 42) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 43) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 44) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 45) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 46) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 47) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 48) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 49) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 50) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 51) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 52) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 53) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         }
 
         { document.querySelector(".img").style.display = "none"; }
@@ -2173,111 +2213,152 @@ function duClick() {
 
     if (taipBonus) {
         if (questionX === 1) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 2) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 3) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 4) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 5) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 6) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 7) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 8) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 9) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 10) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 11) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 12) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 13) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 14) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 15) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 16) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 17) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 18) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 19) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 20) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 21) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 22) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 23) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 24) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 25) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 26) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 27) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 28) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 29) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 30) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 31) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 32) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 33) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 34) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 35) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 36) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 37) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 38) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 39) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 40) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 41) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 42) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 43) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 44) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 45) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 46) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 47) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 48) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 49) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 50) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 51) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 52) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 53) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         }
 
         { document.querySelector(".img").style.display = "none"; }
@@ -3020,111 +3101,150 @@ function trysClick() {
 
     if (taipBonus) {
         if (questionX === 1) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 2) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 3) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 4) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 5) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 6) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 7) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 8) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 9) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 10) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 11) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 12) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 13) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 14) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 15) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 16) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 17) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 18) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 19) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 20) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 21) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 22) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 23) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 24) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 25) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 26) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 27) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 28) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 29) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 30) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 31) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 32) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 33) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 34) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 35) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 36) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 37) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 38) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 39) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 40) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 41) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 42) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 43) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 44) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 45) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 46) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 47) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 48) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 49) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 50) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 51) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 52) {
-            
+            teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 53) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         }
 
         { document.querySelector(".img").style.display = "none"; }
@@ -3142,7 +3262,12 @@ function trysClick() {
         { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
 
-        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+        if (teisingiAtsakymai < 0) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + "0" + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
             atsIMG = document.querySelector(".ivertinimas");
             vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
             atsIMG.src = "./vertinimas/1f.jpg";
@@ -3868,109 +3993,148 @@ function keturiClick() {
 
     if (taipBonus) {
         if (questionX === 1) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 2) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 3) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 4) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 5) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 6) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 7) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 8) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 9) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 10) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 11) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 12) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 13) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 14) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 15) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 16) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 17) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 18) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 19) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 20) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 21) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 22) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 23) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 24) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 25) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 26) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 27) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 28) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 29) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 30) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 31) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 32) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 33) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 34) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 35) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 36) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 37) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 38) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 39) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 40) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 41) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 42) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 43) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 44) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 45) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 46) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 47) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 48) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 49) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         } else if (questionX === 50) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 51) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 52) {
-            
+            neteisingiAtsakymai = neteisingiAtsakymai + 1;
+            teisingiAtsakymai = teisingiAtsakymai - 1;
         } else if (questionX === 53) {
             teisingiAtsakymai = teisingiAtsakymai + 1;
         }
@@ -3990,7 +4154,12 @@ function keturiClick() {
         { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
 
-        if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
+        if (teisingiAtsakymai < 0) {
+            atsIMG = document.querySelector(".ivertinimas");
+            vert.innerText = "vertinimas: " + "0" + " iš 11 galimų.";
+            atsIMG.src = "./vertinimas/1f.jpg";
+            atsIMG.height = 290;
+        } else if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
             atsIMG = document.querySelector(".ivertinimas");
             vert.innerText = "vertinimas: " + parseInt(teisingiAtsakymai) + " iš 11 galimų.";
             atsIMG.src = "./vertinimas/1f.jpg";
