@@ -3495,7 +3495,7 @@ function keturiClick() {
         { document.querySelector(".bonus").style.display = "none"; }
 
         { document.querySelector(".vertinimas").style.display = "block"; }
-        { document.querySelector(".ivertinimoZinute").style.display = "block"; }
+        { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
 
         if (teisingiAtsakymai === 0 || teisingiAtsakymai === 1 || teisingiAtsakymai === 2 || teisingiAtsakymai === 3 || teisingiAtsakymai === 4) {
@@ -3531,6 +3531,9 @@ function keturiClick() {
         }
     
 
+        console.log("keturi");
+        console.log("teisingiAtsakymai", teisingiAtsakymai);
+        console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
 
     }
