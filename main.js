@@ -1603,7 +1603,28 @@ function vienasClick() {
         console.log("teisingiAtsakymai", teisingiAtsakymai);
         console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
-
+        if (isStarted === false) {
+            timer(wholeTime);
+            isStarted = true;
+            this.classList.remove('play');
+            this.classList.add('pause');
+    
+            setterBtns.forEach(function (btn) {
+                btn.disabled = true;
+                btn.style.opacity = 0.5;
+            });
+    
+        } else if (isPaused) {
+            this.classList.remove('play');
+            this.classList.add('pause');
+            timer(timeLeft);
+            isPaused = isPaused ? false : true
+        } else {
+            this.classList.remove('pause');
+            this.classList.add('play');
+            clearInterval(intervalTimer);
+            isPaused = isPaused ? false : true;
+        }
     }
 }
 
@@ -2542,7 +2563,28 @@ function duClick() {
         console.log("teisingiAtsakymai", teisingiAtsakymai);
         console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
-
+        if (isStarted === false) {
+            timer(wholeTime);
+            isStarted = true;
+            this.classList.remove('play');
+            this.classList.add('pause');
+    
+            setterBtns.forEach(function (btn) {
+                btn.disabled = true;
+                btn.style.opacity = 0.5;
+            });
+    
+        } else if (isPaused) {
+            this.classList.remove('play');
+            this.classList.add('pause');
+            timer(timeLeft);
+            isPaused = isPaused ? false : true
+        } else {
+            this.classList.remove('pause');
+            this.classList.add('play');
+            clearInterval(intervalTimer);
+            isPaused = isPaused ? false : true;
+        }
     }
 }
 
@@ -3479,7 +3521,28 @@ function trysClick() {
         console.log("teisingiAtsakymai", teisingiAtsakymai);
         console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
-
+        if (isStarted === false) {
+            timer(wholeTime);
+            isStarted = true;
+            this.classList.remove('play');
+            this.classList.add('pause');
+    
+            setterBtns.forEach(function (btn) {
+                btn.disabled = true;
+                btn.style.opacity = 0.5;
+            });
+    
+        } else if (isPaused) {
+            this.classList.remove('play');
+            this.classList.add('pause');
+            timer(timeLeft);
+            isPaused = isPaused ? false : true
+        } else {
+            this.classList.remove('pause');
+            this.classList.add('play');
+            clearInterval(intervalTimer);
+            isPaused = isPaused ? false : true;
+        }
     }
 }
 
@@ -4417,7 +4480,28 @@ function keturiClick() {
         console.log("teisingiAtsakymai", teisingiAtsakymai);
         console.log("neteisingiAtsakymai", neteisingiAtsakymai);
 
-
+        if (isStarted === false) {
+            timer(wholeTime);
+            isStarted = true;
+            this.classList.remove('play');
+            this.classList.add('pause');
+    
+            setterBtns.forEach(function (btn) {
+                btn.disabled = true;
+                btn.style.opacity = 0.5;
+            });
+    
+        } else if (isPaused) {
+            this.classList.remove('play');
+            this.classList.add('pause');
+            timer(timeLeft);
+            isPaused = isPaused ? false : true
+        } else {
+            this.classList.remove('pause');
+            this.classList.add('play');
+            clearInterval(intervalTimer);
+            isPaused = isPaused ? false : true;
+        }
     }
 }
 
@@ -4523,7 +4607,8 @@ const setterBtns = document.querySelectorAll('button[data-setter]');
 
 let intervalTimer;
 let timeLeft;
-let wholeTime = 1 * 60; // manage this to set the whole time 
+// laikmacio laiko nustatymas
+let wholeTime = 2 * 60; // manage this to set the whole time 
 let isPaused = false;
 let isStarted = false;
 
