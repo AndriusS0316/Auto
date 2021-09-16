@@ -1544,7 +1544,7 @@ function vienasClick() {
             atsIMG.src = "./vertinimas/7a+.jpg";
             atsIMG.height = 290;
         }
-    
+
 
         console.log("vienas");
         console.log("teisingiAtsakymai", teisingiAtsakymai);
@@ -2457,7 +2457,7 @@ function duClick() {
             atsIMG.src = "./vertinimas/7a+.jpg";
             atsIMG.height = 290;
         }
-    
+
 
         console.log("du");
         console.log("teisingiAtsakymai", teisingiAtsakymai);
@@ -3368,7 +3368,7 @@ function trysClick() {
             atsIMG.src = "./vertinimas/7a+.jpg";
             atsIMG.height = 290;
         }
-    
+
 
         console.log("trys");
         console.log("teisingiAtsakymai", teisingiAtsakymai);
@@ -4280,7 +4280,7 @@ function keturiClick() {
             atsIMG.src = "./vertinimas/7a+.jpg";
             atsIMG.height = 290;
         }
-    
+
 
         console.log("keturi");
         console.log("teisingiAtsakymai", teisingiAtsakymai);
@@ -4311,6 +4311,32 @@ function bonusClick() {
     neBonus = false;
     taipBonus = true;
 }
+
+
+
+
+
+
+// Run myfunc every second
+var myfunc = setInterval(function () {
+
+    var now = new Date().getTime();
+    var timeleft = timeleft - now;
+
+    // Calculating the days, hours, minutes and seconds left
+    var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+    // Result is output to the specific element
+    document.getElementById("sec").innerHTML = seconds + "s "
+
+    // Display the message when countdown is over
+    if (timeleft < 0) {
+        clearInterval(myfunc);
+        document.getElementById("sec").innerHTML = ""
+        document.getElementById("end").innerHTML = "TIME UP!!";
+    }
+}, 1000);
+
 
 
 start.addEventListener('click', startClick);
