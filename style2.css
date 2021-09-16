@@ -76,32 +76,7 @@ button[data-setter]:hover { opacity: 0.5; }
   position: relative;
 }
 
-.play::before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  /* mygtukas skirtas pradeti atgalini laiko skaiciavima */
-  border-left: 22px solid yellowgreen;
-}
 
-.pause::after {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 12px;
-  width: 15px;
-  height: 30px;
-  background-color: transparent;
-  border-radius: 1px;
-  /* mygtukas skirtas sustabdyti atgalini laiko skaiciavima */
-  border: 5px solid yellowgreen;
-  border-top: none;
-  border-bottom: none;
-}
 
 #pause:hover { opacity: 0.8; }
 

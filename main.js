@@ -174,6 +174,33 @@ function startClick() {
     { document.querySelector(".start").style.display = "none"; }
     { document.querySelector(".pastaba").style.display = "none"; }
 
+    
+    if (isStarted === false) {
+        timer(wholeTime);
+        isStarted = true;
+        this.classList.remove('play');
+        this.classList.add('pause');
+
+        setterBtns.forEach(function (btn) {
+            btn.disabled = true;
+            btn.style.opacity = 0.5;
+        });
+
+    } else if (isPaused) {
+        this.classList.remove('play');
+        this.classList.add('pause');
+        timer(timeLeft);
+        isPaused = isPaused ? false : true
+    } else {
+        this.classList.remove('pause');
+        this.classList.add('play');
+        clearInterval(intervalTimer);
+        isPaused = isPaused ? false : true;
+    }
+
+
+
+
     // questionX = q1;
 
     if (questionX === 1) {
@@ -892,6 +919,32 @@ function vienasClick() {
                 atsIMG.src = "./vertinimas/7a+.jpg";
                 atsIMG.height = 290;
             }
+
+
+            if (isStarted === false) {
+                timer(wholeTime);
+                isStarted = true;
+                this.classList.remove('play');
+                this.classList.add('pause');
+        
+                setterBtns.forEach(function (btn) {
+                    btn.disabled = true;
+                    btn.style.opacity = 0.5;
+                });
+        
+            } else if (isPaused) {
+                this.classList.remove('play');
+                this.classList.add('pause');
+                timer(timeLeft);
+                isPaused = isPaused ? false : true
+            } else {
+                this.classList.remove('pause');
+                this.classList.add('play');
+                clearInterval(intervalTimer);
+                isPaused = isPaused ? false : true;
+            }
+
+
         }
 
         if (questionX === 1) {
@@ -1804,6 +1857,32 @@ function duClick() {
                 atsIMG.src = "./vertinimas/7a+.jpg";
                 atsIMG.height = 290;
             }
+
+
+            if (isStarted === false) {
+                timer(wholeTime);
+                isStarted = true;
+                this.classList.remove('play');
+                this.classList.add('pause');
+        
+                setterBtns.forEach(function (btn) {
+                    btn.disabled = true;
+                    btn.style.opacity = 0.5;
+                });
+        
+            } else if (isPaused) {
+                this.classList.remove('play');
+                this.classList.add('pause');
+                timer(timeLeft);
+                isPaused = isPaused ? false : true
+            } else {
+                this.classList.remove('pause');
+                this.classList.add('play');
+                clearInterval(intervalTimer);
+                isPaused = isPaused ? false : true;
+            }
+
+
         }
 
         if (questionX === 1) {
@@ -2717,6 +2796,32 @@ function trysClick() {
                 atsIMG.src = "./vertinimas/7a+.jpg";
                 atsIMG.height = 290;
             }
+
+
+            if (isStarted === false) {
+                timer(wholeTime);
+                isStarted = true;
+                this.classList.remove('play');
+                this.classList.add('pause');
+        
+                setterBtns.forEach(function (btn) {
+                    btn.disabled = true;
+                    btn.style.opacity = 0.5;
+                });
+        
+            } else if (isPaused) {
+                this.classList.remove('play');
+                this.classList.add('pause');
+                timer(timeLeft);
+                isPaused = isPaused ? false : true
+            } else {
+                this.classList.remove('pause');
+                this.classList.add('play');
+                clearInterval(intervalTimer);
+                isPaused = isPaused ? false : true;
+            }
+
+
         }
 
         if (questionX === 1) {
@@ -3629,6 +3734,32 @@ function keturiClick() {
                 atsIMG.src = "./vertinimas/7a+.jpg";
                 atsIMG.height = 290;
             }
+
+
+            if (isStarted === false) {
+                timer(wholeTime);
+                isStarted = true;
+                this.classList.remove('play');
+                this.classList.add('pause');
+        
+                setterBtns.forEach(function (btn) {
+                    btn.disabled = true;
+                    btn.style.opacity = 0.5;
+                });
+        
+            } else if (isPaused) {
+                this.classList.remove('play');
+                this.classList.add('pause');
+                timer(timeLeft);
+                isPaused = isPaused ? false : true
+            } else {
+                this.classList.remove('pause');
+                this.classList.add('play');
+                clearInterval(intervalTimer);
+                isPaused = isPaused ? false : true;
+            }
+
+
         }
 
         if (questionX === 1) {
@@ -4310,6 +4441,32 @@ function bonusClick() {
 
     neBonus = false;
     taipBonus = true;
+
+
+    if (isStarted === false) {
+        timer(wholeTime);
+        isStarted = true;
+        this.classList.remove('play');
+        this.classList.add('pause');
+
+        setterBtns.forEach(function (btn) {
+            btn.disabled = true;
+            btn.style.opacity = 0.5;
+        });
+
+    } else if (isPaused) {
+        this.classList.remove('play');
+        this.classList.add('pause');
+        timer(timeLeft);
+        isPaused = isPaused ? false : true
+    } else {
+        this.classList.remove('pause');
+        this.classList.add('play');
+        clearInterval(intervalTimer);
+        isPaused = isPaused ? false : true;
+    }
+
+
 }
 
 
