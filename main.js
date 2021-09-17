@@ -34,6 +34,11 @@ let taipBonus = false;
 { document.querySelector(".vertinimas").style.display = "none"; }
 { document.querySelector(".ivertinimoZinute").style.display = "none"; }
 
+
+
+{ document.querySelector(".end").style.display = "none"; }
+
+
 // q1, q2, q3 ir t.t. tai klausimai ir ju numeriai. O bonusQ tai papildomas, bonus Klausimas.
 
 let q1 = pirmas;
@@ -111,6 +116,10 @@ const ivertinimas = document.querySelector('.ivertinimas');
 
 
 const bonus = document.querySelector('.bonus');
+
+
+
+
 
 
 
@@ -4651,16 +4660,30 @@ function timer(seconds) { //counts time, takes seconds
     intervalTimer = setInterval(function () {
         timeLeft = Math.round((remainTime - Date.now()) / 1000);
         if (timeLeft < 0) {
-            clearInterval(intervalTimer);
-            isStarted = false;
-            setterBtns.forEach(function (btn) {
-                btn.disabled = false;
-                btn.style.opacity = 1;
-            });
-            displayTimeLeft(wholeTime);
-            pauseBtn.classList.remove('pause');
-            pauseBtn.classList.add('play');
-            return;
+
+
+            { document.querySelector(".end").style.display = "block"; }
+            { document.querySelector(".laikrodis").style.display = "none"; }
+            { document.querySelector(".back").style.display = "block"; }
+
+            { document.querySelector(".vienas").style.display = "none"; }
+            { document.querySelector(".du").style.display = "none"; }
+            { document.querySelector(".trys").style.display = "none"; }
+            { document.querySelector(".keturi").style.display = "none"; }
+            { document.querySelector(".img").style.display = "none"; }
+
+
+
+            // clearInterval(intervalTimer);
+            // isStarted = false;
+            // setterBtns.forEach(function (btn) {
+            //     btn.disabled = false;
+            //     btn.style.opacity = 1;
+            // });
+            // displayTimeLeft(wholeTime);
+            // pauseBtn.classList.remove('pause');
+            // pauseBtn.classList.add('play');
+            // return;
         }
         displayTimeLeft(timeLeft);
     }, 1000);
