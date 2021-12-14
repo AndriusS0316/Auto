@@ -1,0 +1,92 @@
+.body {
+    background-color: #eee;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button {
+    padding: 15px 40px;
+    font-size: 50px;
+    line-height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 10px #0002;
+}
+.vienas {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 45px;
+}
+.du {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 45px;
+}
+.trys {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 45px;
+}
+.keturi {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    font-size: 45px;
+}
+.vienas:hover, .du:hover, .trys:hover, .keturi:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+.laikmatis {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 93%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 45px;
+}
+.img {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
